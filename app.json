@@ -15,14 +15,17 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.calorie-tracker-v07jirw"
+      "bundleIdentifier": "app.rork.calorie-tracker-v07jirw",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.calorie-tracker-v07jirw"
+      "package": "com.vaderman98.calorietrackerv07jirw"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
